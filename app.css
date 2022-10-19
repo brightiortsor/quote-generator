@@ -15,6 +15,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 2px solid rgb(38, 121, 121);
 }
 
 .container {
@@ -25,17 +26,6 @@ body {
   border-radius: 10px;
   position: relative;
   text-align: center;
-}
-
-.container::after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 120%;
-  background-color: #fff;
-  top: -10%;
-  left: 10%;
-  z-index: -1;
 }
 
 .container p {
